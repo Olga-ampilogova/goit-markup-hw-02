@@ -16,7 +16,6 @@ body {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -43,9 +42,6 @@ button {
 }
 
 /* Header */
-.header {}
-
-
 .header-nav {}
 
 .header-logo {
@@ -70,6 +66,14 @@ button {
 
 .nav-list {}
 
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .nav-link:hover {
     color: #404BBF;
     font-size: 16px;
@@ -78,7 +82,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 
 .nav-link:focus {
     color: #404BBF;
@@ -91,13 +94,6 @@ button {
 
 .nav-list-item {}
 
-.nav-link {
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 .header-address {
     font-style: normal;
@@ -115,7 +111,15 @@ button {
     letter-spacing: 0.02em;
 }
 
-.address-link:hover,
+.address-link:hover {
+    color: #404bbf;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .adress-link:focus {
     color: #404bbf;
     font-size: 16px;
@@ -180,7 +184,9 @@ button {
     background-color: #FFFFFF;
 }
 
-.team-title {}
+.team-title {
+    text-align: center;
+}
 
 .team-list {
     background-color: #F4F4FD;
@@ -195,7 +201,9 @@ button {
 
 .portfolio-title {}
 
-.portfol-list {}
+.portfol-list {
+    background-color: #FFFFFF;
+}
 
 .portfol-list-item {}
 
@@ -203,7 +211,9 @@ button {
 
 .portfol-img {}
 
-.portfol-img-title {}
+.portfol-img-title {
+    text-align: center;
+}
 
 .portfol-text {}
 
