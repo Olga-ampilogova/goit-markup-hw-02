@@ -188,11 +188,15 @@ button {
     background-color: #FFFFFF;
 }
 
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
 .team-name {}
 
 .team-text {}
 
-/* Portfolip */
+/* Portfolio */
 .section-portfol {}
 
 .portfolio-title {}
