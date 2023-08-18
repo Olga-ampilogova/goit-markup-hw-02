@@ -2,7 +2,6 @@ body {
     font-family: Roboto, sans-serif;
     background: #FFF;
     color: #434455;
-    text-decoration: none;
 }
 
 .link {
@@ -17,6 +16,7 @@ body {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -70,6 +70,25 @@ button {
 
 .nav-list {}
 
+.nav-link:hover {
+    color: #404BBF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.nav-link:focus {
+    color: #404BBF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .nav-list-item {}
 
 .nav-link {
@@ -120,6 +139,7 @@ button {
 
 .hero-title {
     color: #FFF;
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -156,9 +176,15 @@ button {
 .descr-list-text {}
 
 
-.section-team {}
+.section-team {
+    background-color: #F4F4FD;
+}
 
 .team-title {}
+
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-name {}
 
@@ -180,6 +206,16 @@ button {
 .portfol-img-title {}
 
 .portfol-text {}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--ocean, #404BBF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /* Footer */
 footer {
