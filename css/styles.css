@@ -23,7 +23,6 @@ body {
 
 .secondtitle {
     color: #2E2F42;
-    font-size: 18px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -56,12 +55,6 @@ button {
 
 .weblogo {
     color: #2E2F42;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .nav-list {}
@@ -76,20 +69,10 @@ button {
 
 .nav-link:hover {
     color: #404BBF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .nav-link:focus {
     color: #404BBF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .nav-list-item {}
@@ -112,20 +95,10 @@ button {
 
 .address-link:hover {
     color: #404bbf;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .address-link:focus {
     color: #404bbf;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 /* Hero section */
@@ -216,16 +189,6 @@ button {
 }
 
 .portfol-text {}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--ocean, #404BBF);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 /* Footer */
 footer {
